@@ -23,6 +23,7 @@ and open the template in the editor.
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
   <body>
+    <h6>
      <!--PHP to control connection traffic based on MVC-->
         <?php
 
@@ -34,6 +35,7 @@ and open the template in the editor.
             include 'view/inicio.php';
         }        
         require 'view/footer.php';
-        ?>    
+        ?>  
+     </h6>
   </body>
 </html>
