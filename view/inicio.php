@@ -1,3 +1,3 @@
 <div class="main-container">
-    Administración de hotel
+    Administración de hoteles
 </div>
