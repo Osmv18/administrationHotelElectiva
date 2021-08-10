@@ -7,8 +7,10 @@
     $password = "123";
     if($_POST){
         if($_POST['user'] == $userAdmin && $_POST['password'] == $passwordAdmin) {
+            $_SESSION['user'] = $userAdmin;
             include "view/management.php";
         } else if ($_POST['user'] == $user && $_POST['password'] == $password) {
+            $_SESSION['user'] = $user;
             include "view/user.php";
         } else {
             // # Hay que añadir una alerta para mostrar que es incorrecto
