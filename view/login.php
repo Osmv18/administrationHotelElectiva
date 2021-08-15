@@ -1,3 +1,8 @@
+<?php if ($msg != NULL){ ?>
+<div class="alert alert-warning" role="alert">
+ <?php echo $msg ?>  
+</div>
+<?php   }  ?>
 <div class="main-container">
     <div class="formulario">
         <div class="card">

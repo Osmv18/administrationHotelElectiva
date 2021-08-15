@@ -28,14 +28,14 @@
     <body>
         <!--PHP to control connection traffic based on MVC-->
         <?php
-        session_start();
-        include 'view/header.php'; 
+        session_start(); 
+        include 'view/header.php';
 
         if (isset($_GET["c"])) {
             include 'controller/' . $_GET["c"] . '.php';
-        } else {
+        } else {        
             include 'view/inicio.php';
-        }        
+        }    
         require 'view/footer.php';
         ?>    
     </body>

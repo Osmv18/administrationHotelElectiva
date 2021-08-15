@@ -14,8 +14,10 @@
             include "view/user.php";
         } else {
             // # Hay que añadir una alerta para mostrar que es incorrecto
-            echo "Usuario o contraseña incorrecto";
+            $msg= "Usuario o contraseña incorrecto";
+            include "view/login.php";
         }
     }else{
+        $msg= NULL;
         include "view/login.php";
     }
